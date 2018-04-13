@@ -1,0 +1,55 @@
+﻿@model Softtek.Academy2018.ToDoListApp.Web.Models.SurveyDTO
+@using Softtek.Academy2018.ToDoListApp.Web.Models
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model == null)
+{
+    <h2>Add new survey</h2>
+}
+else
+{
+    <h2>Update survey</h2>
+}
+
+@using (Html.BeginForm("Save", "Survey"))
+{
+    <div class="form-group">
+        @Html.LabelFor(i => i.Title)
+        @Html.TextBoxFor(i => i.Title, new { @class = "form-control" })
+        @Html.ValidationMessageFor(i => i.Title)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(i => i.Description)
+        @Html.TextAreaFor(i => i.Description, new { @class = "form-control" })
+        @Html.ValidationMessageFor(i => i.Description)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(i => i.IsActive)
+        @Html.CheckBoxFor(i => i.IsActive)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(i => i.Status)
+        @Html.EnumDropDownListFor(i => i.Status)
+    </div>
+
+    @Html.ActionLink("Add Questions", "List", "Question")
+
+    <br />
+    <br />
+
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(x => x.Id);
+
+    <button name="submit" type="submit" class="btn btn-primary">Save</button>
+}
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,13 @@
+C:\Repository\Softtek.Academy.2018\Final Test\Academy2018.Final.Test.MVC\SeleniumTesting\bin\Debug\SeleniumTesting.exe.config
+C:\Repository\Softtek.Academy.2018\Final Test\Academy2018.Final.Test.MVC\SeleniumTesting\bin\Debug\SeleniumTesting.exe
+C:\Repository\Softtek.Academy.2018\Final Test\Academy2018.Final.Test.MVC\SeleniumTesting\bin\Debug\SeleniumTesting.pdb
+C:\Repository\Softtek.Academy.2018\Final Test\Academy2018.Final.Test.MVC\SeleniumTesting\bin\Debug\WebDriver.dll
+C:\Repository\Softtek.Academy.2018\Final Test\Academy2018.Final.Test.MVC\SeleniumTesting\bin\Debug\WebDriver.xml
+C:\Repository\Softtek.Academy.2018\Final Test\Academy2018.Final.Test.MVC\SeleniumTesting\obj\Debug\SeleniumTesting.csprojResolveAssemblyReference.cache
+C:\Repository\Softtek.Academy.2018\Final Test\Academy2018.Final.Test.MVC\SeleniumTesting\obj\Debug\SeleniumTesting.csproj.CoreCompileInputs.cache
+C:\Repository\Softtek.Academy.2018\Final Test\Academy2018.Final.Test.MVC\SeleniumTesting\obj\Debug\SeleniumTesting.csproj.CopyComplete
+C:\Repository\Softtek.Academy.2018\Final Test\Academy2018.Final.Test.MVC\SeleniumTesting\obj\Debug\SeleniumTesting.exe
+C:\Repository\Softtek.Academy.2018\Final Test\Academy2018.Final.Test.MVC\SeleniumTesting\obj\Debug\SeleniumTesting.pdb
+C:\Repository\Softtek.Academy.2018\Final Test\Academy2018.Final.Test.MVC\SeleniumTesting\bin\Debug\nunit.framework.dll
+C:\Repository\Softtek.Academy.2018\Final Test\Academy2018.Final.Test.MVC\SeleniumTesting\bin\Debug\nunit.framework.pdb
+C:\Repository\Softtek.Academy.2018\Final Test\Academy2018.Final.Test.MVC\SeleniumTesting\bin\Debug\nunit.framework.xml
